@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const route = useRoute()
 const { locale } = useI18n();
+const path = (route.path.endsWith('/')?route.path.slice(0,-1):route.path)
+
 
 const { data: page } = await useAsyncData('page-' + route.path, async () => {
   const search = route.path.replace("/en","")+'_'+locale.value

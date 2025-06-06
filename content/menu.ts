@@ -2,21 +2,22 @@ export const DE = [{
         slug: '/',
         text: 'Start'
       },
-      {
-        slug: '/glauben',
-        text: 'Glaube'
-      },
+
       {
         slug: '/gemeinden',
         text: 'Gemeinden'
-      },
+/*       },
       {
         slug: '/freunde',
         text: 'Gruppen'
       },
       {
+        slug: '/glauben',
+        text: 'Glaube'
+      },
+      {
         slug: '/geschichte',
-        text: 'Geschichte'
+        text: 'Geschichte' */
       }
     ]
 
@@ -25,19 +26,20 @@ export const EN = [{
         text: 'Home'
       },
       {
+        slug: '/en/gemeinden',
+        text: 'Churches'
+/*       },
+      {
         slug: '/en/glauben',
         text: 'Faith'
       },
-      {
-        slug: '/en/gemeinden',
-        text: 'Churches'
-      },
+
       {
         slug: '/en/freunde',
         text: 'Groups'
       },
       {
         slug: '/en/geschichte',
-        text: 'History'
+        text: 'History' */
       }
     ]
