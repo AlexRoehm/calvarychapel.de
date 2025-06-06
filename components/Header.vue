@@ -10,9 +10,9 @@
       </div>
     <transition name="fade">
       <div v-show="!hero"> <!-- Nav Bar for page without hero video -->
-        <div class="absolute z-40 fixed top-0 left-0 right-0 h-20 bg-accent">
+        <div class="absolute z-40 fixed top-0 left-0 right-0 h-14 sm:h-20 bg-accent">
         </div>
-        <div class="absolute z-40 fixed top-6 left-5">
+        <div class="absolute z-40 fixed top-3 sm:top-6 left-5">
           <img src="~/assets/ccdove-1.png" class="w-8 h-8" />
         </div>
       </div>
