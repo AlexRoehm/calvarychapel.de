@@ -16,7 +16,7 @@ on:
     - cron:  '27 0 * * *'
 
 concurrency:
-  group: Lerntherapie Freiburg Static Build
+  group: Calvary Chapel Deutschland Static Build
   cancel-in-progress: true    
 
 jobs:
