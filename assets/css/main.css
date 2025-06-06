@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+    --font-sans: 'Public Sans', sans-serif;
+    --color-accent: #3f5287;
+    --color-light: #f0f0e0;
+    --color-dark: #10172a;
+}
+
+
+#html-content {
+    @apply text-base tracking-wide
+  }
+  
+  #html-content h1 {
+    @apply font-bold text-xl mb-6 
+  }
+  
+  #html-content h2 {
+    @apply font-bold text-xl mt-12 mb-6
+  }
+  
+  #html-content h3 {
+    @apply font-semibold text-lg mt-8 mb-4 
+  }
+  
+  #html-content h4 {
+    @apply font-medium text-base mt-8 mb-4 
+  }
+  
+  #html-content h5 {
+    @apply font-medium text-sm mt-8 mb-4
+  }
+  
+  #html-content P {
+    @apply mb-4 tracking-wider text-xs sm:text-sm xl:text-base w-full mx-auto leading-relaxed
+  }
+  
+  #html-content strong {
+    @apply font-extrabold text-accent
+  }
+  
+  #html-content a {
+    @apply italic font-medium
+  }
+  
+  #html-content a:hover {
+    @apply text-orange-600
+  }
+  
+  #html-content em {
+    @apply font-bold
+  }
+  
+  #html-content b {
+    @apply font-semibold
+  }
+  
+  #html-content blockquote {
+    @apply w-2/3 mx-auto pl-5 text-center italic
+  }
+  
+  #html-content ul {
+    @apply mb-5
+  }
+  
+  #html-content ul li {
+    @apply text-left list-disc ml-10 tracking-wider text-xs sm:text-sm xl:text-base w-full mx-auto
+  }
+  
+  #html-content ol {
+    @apply mb-5
+  }
+  
+  #html-content ol li {
+    @apply text-left list-decimal ml-10 tracking-wider text-xs sm:text-sm xl:text-base w-full mx-auto
+  }
+  
+  #html-content hr {
+    @apply my-10 
+  }
+  
+  #html-content img {
+    @apply inline-block
+  }
+  
+  #html-content figure {
+    @apply inline
+  }
+  
+  #html-content figure.image-style-side {
+    float: right;
+  }
+  
+  #html-content figure.image_resized {
+    @apply inline-block
+  }
