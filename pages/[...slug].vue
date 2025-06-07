@@ -1,12 +1,8 @@
 <script setup lang="ts">
 const route = useRoute()
 const { locale } = useI18n();
-const path = (route.path.endsWith('/')?route.path.slice(0,-1):route.path)
-
-
-const { data: page } = await useAsyncData('page-' + route.path, async () => {
-  const search = route.path.replace("/en","")+'_'+locale.value
-  console.log(search)
+var search = route.path.replace("/en","").replace(/\/+$/, '')+'_'+locale.value
+const { data: page } = await useAsyncData(search, async () => {
   const t = await queryCollection('docs').path(search).first()
   if (!t) {
     throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
