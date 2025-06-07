@@ -9,7 +9,7 @@ import { CHURCHES } from '../content/gemeinden'
         <h1 class="text-3xl font-extrabold">{{ $t("Gemeinden") }}</h1>
         <p class="my-8 px-10 text-md">{{ $t("GemeindenIntro") }}</p>
         <div class="w-full">
-          <div v-for="post in CHURCHES">
+          <div v-for="post in CHURCHES" :key="post.id">
             <Card :post="post" />
           </div>
         </div>

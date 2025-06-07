@@ -6,7 +6,7 @@ export const DE = [{
       {
         slug: '/gemeinden',
         text: 'Gemeinden'
-/*       },
+      },
       {
         slug: '/freunde',
         text: 'Gruppen'
@@ -15,9 +15,9 @@ export const DE = [{
         slug: '/glauben',
         text: 'Glaube'
       },
-      {
+            {
         slug: '/geschichte',
-        text: 'Geschichte' */
+        text: 'Geschichte'
       }
     ]
 
@@ -28,8 +28,7 @@ export const EN = [{
       {
         slug: '/en/gemeinden',
         text: 'Churches'
-/*       },
-      {
+      },      {
         slug: '/en/glauben',
         text: 'Faith'
       },
@@ -40,6 +39,6 @@ export const EN = [{
       },
       {
         slug: '/en/geschichte',
-        text: 'History' */
+        text: 'History'
       }
     ]

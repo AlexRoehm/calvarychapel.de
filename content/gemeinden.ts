@@ -1,5 +1,6 @@
 export const CHURCHES = [
   {
+    "id": "00001",
     "city": "Darmstadt",
     "name": "Calvary Chapel Darmstadt",
     "pastor": "Frank Decker",
@@ -7,9 +8,13 @@ export const CHURCHES = [
     "address": "Roßdörfer Str. 35a, 64409 Messel bei Darmstadt",
     "services": "See website",
     "godis": "siehe Webseite",
-    "email": null
+    "stream": "",
+    "podcast": "",
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00002",
     "city": "Düsseldorf",
     "name": "Calvary Chapel Düsseldorf",
     "pastor": "Edmund Coronel Jr.",
@@ -17,20 +22,27 @@ export const CHURCHES = [
     "address": "Düsselthaler Str. 9, 40211 Düsseldorf",
     "services": "Sunday 10:30 AM",
     "godis": "Sonntag 10.30 Uhr",
-    "email": null
+    "stream": "",
+    "podcast": "",
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00003",
     "city": "Freiburg",
-     "name": "Calvary Chapel Freiburg",
+    "name": "Calvary Chapel Freiburg",
     "pastor": "Alex Röhm",
     "website": "www.ccfreiburg.de",
     "address": "Löwenstr. 3-7, 79098 Freiburg",
     "services": "Sunday 9:30 AM (German), 11:30 AM (German), 5:00 PM (English); Wednesday 7:00 PM (German)",
     "godis": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
+    "stream": "",
     "podcast": "https://podcast.ccfreiburg.de/",
+    "phone": "",
     "email": "info@ccfreiburg.de"
   },
   {
+    "id": "00004",
     "city": "Neunkirchen",
     "name": "Calvary Chapel Freier Grund",
     "pastor": "Andrew Rann",
@@ -39,10 +51,12 @@ export const CHURCHES = [
     "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
     "godis": " Sonntag 10:30 Uhr / Mittwoch 19:30 Uhr",
     "stream": "http://www.ccfg.de/index.php/topmenuepredigten/livestream",
+    "podcast": "",
     "phone": "+4927356565615",
     "email": "info@ccfg.de"
   },
   {
+    "id": "00005",
     "city": "Görlitz",
     "name": "Calvary Chapel Görlitz",
     "pastor": "Stephan Spielau",
@@ -50,9 +64,13 @@ export const CHURCHES = [
     "address": "Parkstr. 3, 02826 Görlitz",
     "services": "Sunday 12:30 PM; Wednesday 7:30 PM",
     "godis": "Sonntags: 12.30 Gottesdienst, 19.30 Gebetsabend, Mittwochs: 19.30 Bibelstunde",
-    "email": null
+    "stream": "",
+    "podcast": "",
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00006",
     "city": "Grünstadt",
     "name": "Calvary Chapel Grünstadt",
     "pastor": "Günter Weber",
@@ -60,21 +78,27 @@ export const CHURCHES = [
     "address": "Dieselstr. 13, 67269 Grünstadt",
     "services": "Sunday 10:30 AM; Tuesday 7:30 PM",
     "godis": "Sonntag 10.30 Uhr / Dienstag 19.30 Uhr",
+    "stream": "",
+    "podcast": "",
     "phone": "+496359961506",
     "email": "ccgruenstadt@gmx.de"
   },
   {
+    "id": "00007",
     "city": "Hamburg",
-     "name": "City Light Hamburg",
-   "pastor": "Janos Hench",
+    "name": "City Light Hamburg",
+    "pastor": "Janos Hench",
     "website": "citylighthamburg.de",
     "address": "Mexikoring 15, 22297 Hamburg",
     "services": "Sunday 4:00 PM",
     "godis": "Sonntag 16 Uhr",
+    "stream": "",
+    "podcast": "",
     "phone": "+49 40 3346675 88",
     "email": "info@citylighthamburg.de"
   },
   {
+    "id": "00008",
     "city": "Hannover",
     "name": "Koinonia Calvary Chapel Hannover",
     "pastor": "Jörg Macheil",
@@ -82,28 +106,31 @@ export const CHURCHES = [
     "address": "Herrenstr. 10, 30159 Hannover",
     "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
     "godis": "Sonntag 10:30 Uhr und Mittwoch 19:30 Uhr (Eingang Herrenstr. 8a)",
-    "stream": "http://koinonia-radio.de/",
+    "stream": "https://koinonia-radio.de/",
     "podcast": "https://koinonia-gemeinde.de/mp3/podcast48.xml",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00009",
     "city": "Heidelberg",
-     "name": "Calvary Chapel Heidelberg",
-   "pastor": "Keith Fortenberry",
+    "name": "Calvary Chapel Heidelberg",
+    "pastor": "Keith Fortenberry",
     "website": "www.cchd.de",
     "address": "Vangerowstr. 51a, 69115 Heidelberg",
     "services": "Sunday 10:30 AM; 7:00 PM",
     "godis": "Sonntag 10:30 / 19:00 Uhr",
     "stream": "",
-    "podcast": "http://www.cchd.de/Predigten_podcast.xml",
+    "podcast": "https://www.cchd.de/Predigten_podcast.xml",
     "phone": "+49 6221 433",
     "email": "office@cchd.de"
   },
   {
+    "id": "00010",
     "city": "Herborn",
-     "name": "Calvary Chapel Herborn",
-     "pastor": "Benjamin Rothe",
-   "website": "ccherborn.de",
+    "name": "Calvary Chapel Herborn",
+    "pastor": "Benjamin Rothe",
+    "website": "ccherborn.de",
     "address": "Hohe Str. 700, Gebäude 9, 35745 Herborn",
     "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
     "godis": "Sonntag 10:30 / Mittwoch 19:30 Uhr",
@@ -113,21 +140,23 @@ export const CHURCHES = [
     "email": "office@ccherborn.de"
   },
   {
+    "id": "00011",
     "city": "Kindsbach",
-     "name": "Calvary Chapel Kaiserslautern",
+    "name": "Calvary Chapel Kaiserslautern",
     "pastor": "David Ball",
     "website": "cck-town.org",
     "address": "Industriestr. 50, 66862 Kindsbach",
     "services": "Sunday 11:00 AM",
     "godis": "Sonntag 11 Uhr",
     "stream": "",
-    "podcast": "http://cck-town.org/feed/podcast",
+    "podcast": "https://cck-town.org/feed/podcast",
     "phone": "+49 6371 616793",
-    "email": null
+    "email": ""
   },
   {
+    "id": "00012",
     "city": "Leipzig",
-     "name": "Calvary Chapel Leipzig",
+    "name": "Calvary Chapel Leipzig",
     "pastor": "Kurt Ibbotson",
     "website": "www.calvarychapelleipzig.de",
     "address": "Talstr. 30, 04103 Leipzig",
@@ -139,8 +168,9 @@ export const CHURCHES = [
     "email": "diekapelleleipzig@gmail.com"
   },
   {
+    "id": "00013",
     "city": "Lippstadt",
-     "name": "Calvary Chapel Lippstadt",
+    "name": "Calvary Chapel Lippstadt",
     "pastor": "Rolf Credé",
     "website": "www.cc-lp.de",
     "address": "Windmüllerstraße 22, 59557 Lippstadt",
@@ -148,11 +178,13 @@ export const CHURCHES = [
     "godis": "Sonntag 10:30 Uhr / Mittwoch 19.30 Uhr",
     "stream": "",
     "podcast": "",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00014",
     "city": "Ludwigsburg",
-     "name": "City Chapel Ludwigsburg",
+    "name": "City Chapel Ludwigsburg",
     "pastor": "",
     "website": "citychapel-lb.de",
     "address": "Friedenstraße 35, 71636 Ludwigsburg",
@@ -160,11 +192,13 @@ export const CHURCHES = [
     "godis": "Sonntag 16:00 Uhr",
     "stream": "",
     "podcast": "",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00015",
     "city": "Minden",
-     "name": "Calvary Chapel Minden",
+    "name": "Calvary Chapel Minden",
     "pastor": "Ruben-Samuel Will",
     "website": "ccminden.de",
     "address": "Karlsbader Weg 5, 32427 Minden",
@@ -172,11 +206,13 @@ export const CHURCHES = [
     "godis": "siehe Webseite",
     "stream": "",
     "podcast": "",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00016",
     "city": "Münster",
-     "name": "Livestone Chapel Münster",
+    "name": "Livestone Chapel Münster",
     "pastor": "Achim Paul",
     "website": "www.livestonechapel.de",
     "address": "Robert Bosch Str. 5, 48153 Münster",
@@ -188,8 +224,9 @@ export const CHURCHES = [
     "email": "info@livestonechapel.de"
   },
   {
+    "id": "00017",
     "city": "Rostock",
-     "name": "LightHouse Rostock",
+    "name": "LightHouse Rostock",
     "pastor": "Arne Schultze-Petzold",
     "website": "light-house-rostock.de",
     "address": "Kurt-Schumacher-Ring 123, 18069 Rostock",
@@ -197,35 +234,41 @@ export const CHURCHES = [
     "godis": "Sonntag um 11 Uhr",
     "stream": "",
     "podcast": "",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00018",
     "city": "Siegen",
-     "name": "Calvary Chapel Siegen",
+    "name": "Calvary Chapel Siegen",
     "pastor": "Alexander Kruse",
     "website": "www.cc-siegen.de",
     "address": "Alte Eisenstr. 6, 57080 Siegen",
     "services": "Sunday 9:30 AM, 11:30 AM, 5:00 PM; Wednesday 7:30 PM",
     "godis": "Sonntag 9:30 / 11:30 / 17:00 Uhr",
     "stream": "https://www.cc-siegen.de/livestream/",
-    "podcast": "http://podcasts.subsplash.com/1d0fcbd/podcast.rss",
+    "podcast": "https://podcasts.subsplash.com/1d0fcbd/podcast.rss",
     "phone": "+49 271 313 8888-8",
     "email": "office@cc-siegen.de"
   },
   {
+    "id": "00019",
     "city": "Sinsheim",
-     "name": "Vaterhaus Calvary Chapel Sinsheim",
+    "name": "Vaterhaus Calvary Chapel Sinsheim",
+    "pastor": "",
     "website": "calvarychapelsinsheim.de",
     "address": "Am Leitzelbach 20, 74889 Sinsheim",
     "services": "See website",
     "godis": "siehe Webseite",
     "stream": "",
     "podcast": "",
-    "email": null
+    "phone": "",
+    "email": ""
   },
   {
+    "id": "00020",
     "city": "Stuttgart",
-     "name": "City Chapel Stuttgart",
+    "name": "City Chapel Stuttgart",
     "pastor": "Roland Krumm",
     "website": "calvarychapelstuttgart.de",
     "address": "Talstraße 70, 70188 Stuttgart",
@@ -237,16 +280,17 @@ export const CHURCHES = [
     "email": "info@citychapel.de"
   },
   {
+    "id": "00021",
     "city": "Wiesbaden",
-     "name": "Calvary Chapel Wiesbaden",
+    "name": "Calvary Chapel Wiesbaden",
     "pastor": "Ron Hostetler",
     "website": "www.calvarychapelwiesbaden.de",
     "address": "Dotzheimer Str. 51, 65197 Wiesbaden",
     "services": "Sunday 10:30 AM; Tuesday 7:30 PM",
     "godis": "Sonntag 10.30 Uhr / Dienstag 19.30 Uhr",
     "stream": "",
-    "podcast": "http://www.calvarychapelwiesbaden.de/index.php?option=com_sermonspeaker&view=feed&format=raw&sermon_cat=127&type=audio&Itemid=437",
+    "podcast": "https://www.calvarychapelwiesbaden.de/index.php?option=com_sermonspeaker&view=feed&format=raw&sermon_cat=127&type=audio&Itemid=437",
     "phone": "+49 611 510",
     "email": "info@calvarychapelwiesbaden.de"
   }
-]
+];

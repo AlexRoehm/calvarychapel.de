@@ -11,6 +11,10 @@
 </template>
 
 <script lang="ts" setup>
-var now = new Date()
-const year = ref(now.getFullYear())
-</script>
+const year = ref(2025)
+
+onMounted(() => {
+  var now = new Date()
+  year.value = now.getFullYear()
+})
+</script>SWqqV324qYKjKMxf#JaE

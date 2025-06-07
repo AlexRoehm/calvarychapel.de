@@ -35,11 +35,5 @@ const getStyle = (slug) => {
 }
 
 const path = '/start_'+locale.value
-const { data: page } = await useAsyncData('page-' + path, async () => {
-  const t = await queryCollection('docs').path(path).first()
-  if (!t) {
-    throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-  }
-  return t
-})
+const { data: page } = await useAsyncData(path, () => queryCollection('docs').path(path).first())
 </script>

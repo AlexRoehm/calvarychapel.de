@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+  experimental: {
+    payloadExtraction: false // verhindert _payload.json preload
+  },
   devtools: { enabled: false },
   modules: [
     '@nuxt/content',
@@ -25,7 +28,7 @@ export default defineNuxtConfig({
         name: "Deutsch"
       }
     ],
-    lazy: true,
+    lazy: false,
     langDir: './locales',
   },
   css: ['~/assets/css/main.css'],
