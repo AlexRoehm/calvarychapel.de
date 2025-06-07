@@ -12,7 +12,7 @@ const { data: page } = await useAsyncData('page-' + route.path, async () => {
     throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
   }
   return t
-})
+}, { server: true })
 
 
 const imgsrc = computed(() => '/img/' + page.value.image)
