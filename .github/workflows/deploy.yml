@@ -1,4 +1,4 @@
-name: Deploy Static Lertherapie site (files nuxt generate)
+name: Deploy Static Calvary Chapel DE site (files nuxt generate)
 on:
   push:
     tags:
