@@ -4,14 +4,17 @@ export const CHURCHES = [
     "city": "Darmstadt",
     "name": "Calvary Chapel Darmstadt",
     "pastor": "Frank Decker",
-    "website": "www.calvarydarmstadt.de",
+    "website": "www.calvarymessel.de",
     "address": "Roßdörfer Str. 35a, 64409 Messel bei Darmstadt",
-    "services": "See website",
+    "services": "siehe Webseite",
     "godis": "siehe Webseite",
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Ro%C3%9Fd%C3%B6rfer%20Str.%2035a%2C%2064409%20Messel%20bei%20Darmstadt",
+    "latitude": 49.922767, 
+    "longitude": 8.743901
   },
   {
     "id": "00002",
@@ -20,12 +23,15 @@ export const CHURCHES = [
     "pastor": "Edmund Coronel Jr.",
     "website": "www.calvarychapelduesseldorf.de",
     "address": "Düsselthaler Str. 9, 40211 Düsseldorf",
-    "services": "Sunday 10:30 AM",
+    "services": "Sonntag 10.30 Uhr",
     "godis": "Sonntag 10.30 Uhr",
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=D%C3%BCsselthaler%20Str.%209%2C%2040211%20D%C3%BCsseldorf",
+    "latitude": 51.2325853033904, 
+    "longitude": 6.790620555595019
   },
   {
     "id": "00003",
@@ -34,12 +40,15 @@ export const CHURCHES = [
     "pastor": "Alex Röhm",
     "website": "www.ccfreiburg.de",
     "address": "Löwenstr. 3-7, 79098 Freiburg",
-    "services": "Sunday 9:30 AM (German), 11:30 AM (German), 5:00 PM (English); Wednesday 7:00 PM (German)",
+    "services": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
     "godis": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
     "stream": "",
     "podcast": "https://podcast.ccfreiburg.de/",
     "phone": "",
-    "email": "info@ccfreiburg.de"
+    "email": "info@ccfreiburg.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=L%C3%B6wenstr.%203-7%2C%2079098%20Freiburg",
+    "latitude": 47.993975957041584,
+    "longitude": 7.847928639067421
   },
   {
     "id": "00004",
@@ -48,12 +57,15 @@ export const CHURCHES = [
     "pastor": "Andrew Rann",
     "website": "www.ccfg.de",
     "address": "Bitzegarten 5, 57290 Neunkirchen",
-    "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
+    "services": "Sonntag 10:30 Uhr / Mittwoch 19:30 Uhr",
     "godis": " Sonntag 10:30 Uhr / Mittwoch 19:30 Uhr",
     "stream": "http://www.ccfg.de/index.php/topmenuepredigten/livestream",
     "podcast": "",
     "phone": "+4927356565615",
-    "email": "info@ccfg.de"
+    "email": "info@ccfg.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Bitzegarten%205%2C%2057290%20Neunkirchen",
+    "latitude": 50.79006750666305, 
+    "longitude": 8.003465430407445
   },
   {
     "id": "00005",
@@ -62,12 +74,15 @@ export const CHURCHES = [
     "pastor": "Stephan Spielau",
     "website": "calvarychapelgoerlitz.de",
     "address": "Parkstr. 3, 02826 Görlitz",
-    "services": "Sunday 12:30 PM; Wednesday 7:30 PM",
+    "services": "Sonntags: 12.30 Gottesdienst, 19.30 Gebetsabend, Mittwochs: 19.30 Bibelstunde",
     "godis": "Sonntags: 12.30 Gottesdienst, 19.30 Gebetsabend, Mittwochs: 19.30 Bibelstunde",
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Parkstr.%203%2C%2002826%20G%C3%B6rlitz",
+    "latitude": 51.14960958973009,
+    "longitude": 14.996556764565623
   },
   {
     "id": "00006",
@@ -76,12 +91,15 @@ export const CHURCHES = [
     "pastor": "Günter Weber",
     "website": "ccgruenstadt.de",
     "address": "Dieselstr. 13, 67269 Grünstadt",
-    "services": "Sunday 10:30 AM; Tuesday 7:30 PM",
+    "services": "Sonntag 10.30 Uhr / Dienstag 19.30 Uhr",
     "godis": "Sonntag 10.30 Uhr / Dienstag 19.30 Uhr",
     "stream": "",
     "podcast": "",
     "phone": "+496359961506",
-    "email": "ccgruenstadt@gmx.de"
+    "email": "ccgruenstadt@gmx.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Dieselstr.%2013%2C%2067269%20Gr%C3%BCnstadt",
+    "latitude": 49.562271605836706,
+    "longitude":  8.179855482978605
   },
   {
     "id": "00007",
@@ -90,12 +108,15 @@ export const CHURCHES = [
     "pastor": "Janos Hench",
     "website": "citylighthamburg.de",
     "address": "Mexikoring 15, 22297 Hamburg",
-    "services": "Sunday 4:00 PM",
+    "services": "Sonntag 16 Uhr",
     "godis": "Sonntag 16 Uhr",
     "stream": "",
     "podcast": "",
     "phone": "+49 40 3346675 88",
-    "email": "info@citylighthamburg.de"
+    "email": "info@citylighthamburg.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Mexikoring%2015%2C%2022297%20Hamburg",
+    "latitude": 53.60245957520428, 
+    "longitude": 10.023352598153913
   },
   {
     "id": "00008",
@@ -104,12 +125,15 @@ export const CHURCHES = [
     "pastor": "Jörg Macheil",
     "website": "koinonia-gemeinde.de",
     "address": "Herrenstr. 10, 30159 Hannover",
-    "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
+    "services": "Sonntag 10:30 Uhr und Mittwoch 19:30 Uhr (Eingang Herrenstr. 8a)",
     "godis": "Sonntag 10:30 Uhr und Mittwoch 19:30 Uhr (Eingang Herrenstr. 8a)",
     "stream": "https://koinonia-radio.de/",
     "podcast": "https://koinonia-gemeinde.de/mp3/podcast48.xml",
     "phone": "",
-    "email": ""
+    "email": "",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Herrenstr.%2010%2C%2030159%20Hannover",
+    "latitude": 52.378255906919385, 
+    "longitude": 9.735088701846086
   },
   {
     "id": "00009",
@@ -118,12 +142,15 @@ export const CHURCHES = [
     "pastor": "Keith Fortenberry",
     "website": "www.cchd.de",
     "address": "Vangerowstr. 51a, 69115 Heidelberg",
-    "services": "Sunday 10:30 AM; 7:00 PM",
+    "services": "Sonntag 10:30 / 19:00 Uhr",
     "godis": "Sonntag 10:30 / 19:00 Uhr",
     "stream": "",
     "podcast": "https://www.cchd.de/Predigten_podcast.xml",
     "phone": "+49 6221 433",
-    "email": "office@cchd.de"
+    "email": "office@cchd.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Vangerowstr.%2051a%2C%2069115%20Heidelberg",
+    "latitude": 49.40881704898233,
+    "longitude": 8.673247553978142
   },
   {
     "id": "00010",
@@ -132,12 +159,15 @@ export const CHURCHES = [
     "pastor": "Benjamin Rothe",
     "website": "ccherborn.de",
     "address": "Hohe Str. 700, Gebäude 9, 35745 Herborn",
-    "services": "Sunday 10:30 AM; Wednesday 7:30 PM",
+    "services": "Sonntag 10:30 / Mittwoch 19:30 Uhr",
     "godis": "Sonntag 10:30 / Mittwoch 19:30 Uhr",
     "stream": "",
     "podcast": "https://itunes.apple.com/de/podcast/calvary-chapel-herborn-podcast/id1364863713?l=en",
     "phone": "+49 2772 9230699",
-    "email": "office@ccherborn.de"
+    "email": "office@ccherborn.de",
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Hohe%20Str.%20700%2C%20Geb%C3%A4ude%209%2C%2035745%20Herborn",
+    "latitude": 50.70942296100839, 
+    "longitude": 8.356262642329689
   },
   {
     "id": "00011",
@@ -146,12 +176,15 @@ export const CHURCHES = [
     "pastor": "David Ball",
     "website": "cck-town.org",
     "address": "Industriestr. 50, 66862 Kindsbach",
-    "services": "Sunday 11:00 AM",
+    "services": "Sonntag 11 Uhr",
     "godis": "Sonntag 11 Uhr",
     "stream": "",
     "podcast": "https://cck-town.org/feed/podcast",
     "phone": "+49 6371 616793",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Industriestr.+50,+66862+Kindsbach",
+    "latitude": 49.432538,
+    "longitude": 7.761835
   },
   {
     "id": "00012",
@@ -159,13 +192,16 @@ export const CHURCHES = [
     "name": "Calvary Chapel Leipzig",
     "pastor": "Kurt Ibbotson",
     "website": "www.calvarychapelleipzig.de",
-    "address": "Talstr. 30, 04103 Leipzig",
-    "services": "See website",
+    "address": "Konstantinstraße 15, 04315 Leipzig",
+    "services": "siehe Webseite",
     "godis": "siehe Webseite",
     "stream": "",
     "podcast": "",
     "phone": "+49 179 7637558",
-    "email": "diekapelleleipzig@gmail.com"
+    "email": "diekapelleleipzig@gmail.com",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Konstantinstra%C3%9Fe+15,+04315+Leipzig",
+    "latitude": 51.3442295,
+    "longitude": 12.386174
   },
   {
     "id": "00013",
@@ -179,7 +215,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Windm%C3%BCllerstra%C3%9Fe+22,+59557+Lippstadt",
+    "latitude": 51.666712,
+    "longitude": 8.380592
   },
   {
     "id": "00014",
@@ -193,7 +232,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Friedenstra%C3%9Fe+35,+71636+Ludwigsburg",
+    "latitude": 48.896131,
+    "longitude": 9.188374
   },
   {
     "id": "00015",
@@ -207,7 +249,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Karlsbader+Weg+5,+32427+Minden",
+    "latitude": 52.292672,
+    "longitude": 8.917678
   },
   {
     "id": "00016",
@@ -221,7 +266,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "+49 251 87 15 60 35",
-    "email": "info@livestonechapel.de"
+    "email": "info@livestonechapel.de",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Robert+Bosch+Str.+5,+48153+M%C3%BCnster",
+    "latitude": 51.961235,
+    "longitude": 7.623704
   },
   {
     "id": "00017",
@@ -235,7 +283,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Kurt-Schumacher-Ring+123,+18069+Rostock",
+    "latitude": 54.080921,
+    "longitude": 12.139427
   },
   {
     "id": "00018",
@@ -249,7 +300,10 @@ export const CHURCHES = [
     "stream": "https://www.cc-siegen.de/livestream/",
     "podcast": "https://podcasts.subsplash.com/1d0fcbd/podcast.rss",
     "phone": "+49 271 313 8888-8",
-    "email": "office@cc-siegen.de"
+    "email": "office@cc-siegen.de",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Alte+Eisenstr.+6,+57080+Siegen",
+    "latitude": 50.872374,
+    "longitude": 8.025233
   },
   {
     "id": "00019",
@@ -263,7 +317,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "",
     "phone": "",
-    "email": ""
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Leitzelbach+2,+74889+Sinsheim",
+    "latitude": 49.253808,
+    "longitude": 8.915467
   },
   {
     "id": "00020",
@@ -277,7 +334,10 @@ export const CHURCHES = [
     "stream": "",
     "podcast": "https://www.citychapel.de/feed/?post_type=sermons",
     "phone": "+49 711-614-29",
-    "email": "info@citychapel.de"
+    "email": "info@citychapel.de",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Talstra%C3%9Fe+70,+70188+Stuttgart",
+    "latitude": 48.777948,
+    "longitude": 9.179698
   },
   {
     "id": "00021",
@@ -287,10 +347,13 @@ export const CHURCHES = [
     "website": "www.calvarychapelwiesbaden.de",
     "address": "Dotzheimer Str. 51, 65197 Wiesbaden",
     "services": "Sunday 10:30 AM; Tuesday 7:30 PM",
-    "godis": "Sonntag 10.30 Uhr / Dienstag 19.30 Uhr",
+    "godis": "Sonntag 10:30 Uhr / Dienstag 19:30 Uhr",
     "stream": "",
-    "podcast": "https://www.calvarychapelwiesbaden.de/index.php?option=com_sermonspeaker&view=feed&format=raw&sermon_cat=127&type=audio&Itemid=437",
-    "phone": "+49 611 510",
-    "email": "info@calvarychapelwiesbaden.de"
+    "podcast": "",
+    "phone": "",
+    "email": "",
+    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Ernst-Ludwig-Str.+8,+65185+Wiesbaden",
+    "latitude": 50.077903,
+    "longitude": 8.238455
   }
-];
+]

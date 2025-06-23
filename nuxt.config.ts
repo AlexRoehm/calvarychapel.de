@@ -31,5 +31,5 @@ export default defineNuxtConfig({
     lazy: false,
     langDir: './locales',
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', 'maplibre-gl/dist/maplibre-gl.css' ]
 })
