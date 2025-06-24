@@ -3,8 +3,9 @@
 </template>
 
 <script setup>
-import { onMounted, ref, watch } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import maplibregl from 'maplibre-gl'
+import debounce from 'lodash/debounce'
 
 const props = defineProps({
   churches: Array,
@@ -20,6 +21,7 @@ const createGeoJSON = (items) => ({
     .filter(c => c.latitude && c.longitude)
     .map(c => ({
       type: 'Feature',
+      id: c.id,
       properties: {
         id: c.id,
         name: c.name,
@@ -31,6 +33,81 @@ const createGeoJSON = (items) => ({
     })),
 })
 
+const emit = defineEmits(['visibleChanged'])
+
+// NOTES AR!!! currently we use mapliblre 2.4.0 because newer verwsions have the get cluster leaves function broken
+// alternatively, we can write our own clustering
+
+const emitVisibleMarkers = () => {
+  const source = map.getSource('churches')
+  if (!source) return
+  const features = map.queryRenderedFeatures({ layers: ['clusters', 'unclustered-point'] })
+  const clusterIds = []
+  const visiblePoints = []
+
+  for (const feature of features) {
+    if (feature.properties.cluster) {
+      clusterIds.push(feature.properties.cluster_id)
+    } else {
+      visiblePoints.push(feature)
+    }
+  }
+
+  const getClusterLeavesPromise = (source, clusterId) =>
+    new Promise((resolve, reject) => {
+
+      source.getClusterLeaves(clusterId, Infinity, 0, (err, leaves) => {
+        if (err) reject(err)
+        else {
+          resolve(leaves)}
+      })
+    })
+
+  Promise.all(clusterIds.map(id => getClusterLeavesPromise(source, id)))
+    .then(results => {
+      const allClusterPoints = results.flat() // these contain properties.id
+      const allVisible = [...visiblePoints, ...allClusterPoints]
+
+      // Now safe to access:
+      const visibleIds = allVisible.map(f => f.properties.id)
+      const visibleChurches = props.churches.filter(c => visibleIds.find(m => m == c.id))
+      emit('visibleChanged', visibleChurches)
+    })
+    .catch(err => console.log('Error loading cluster leaves', err))
+
+}
+
+// Debounced version (200ms after last event)
+const emitVisibleMarkersDebounced = debounce(emitVisibleMarkers, 100)
+
+const filteredChurches = computed(() => {
+  return props.churches
+})
+
+watch(filteredChurches, (newChurches) => {
+  if (!map || !map.getSource('churches')) return
+
+  // Update GeoJSON source
+  const geojson = createGeoJSON(newChurches)
+  map.getSource('churches').setData(geojson)
+
+  // Zoom to bounds of filtered churches
+  if (newChurches.length) {
+    const bounds = new maplibregl.LngLatBounds()
+    newChurches.forEach(c => {
+      if (c.latitude && c.longitude) {
+        bounds.extend([c.longitude, c.latitude])
+      }
+    })
+    map.fitBounds(bounds, {
+      padding: 50,
+      maxZoom: 14, // Prevent too close zoom
+      duration: 1000,
+    })
+  }
+})
+
+
 onMounted(() => {
   const apiKey = 'bIQhQWCj3Hv9CPuIsQQl';
   map = new maplibregl.Map({
@@ -41,21 +118,21 @@ onMounted(() => {
   })
 
   const navCtl = new maplibregl.NavigationControl({
-  showZoom: true,         // Zoom Buttons
-  showCompass: true,      // Kompass (Rotation)
-  visualizePitch: true    // Neigungsanzeige
-});
+    showZoom: true,         // Zoom Buttons
+    showCompass: true,      // Kompass (Rotation)
+    visualizePitch: true    // Neigungsanzeige
+  });
 
-      // Navigation Controls hinzufügen (Zoom + Rotation)
-    map.addControl(navCtl, 'bottom-right');
+  // Navigation Controls hinzufügen (Zoom + Rotation)
+  map.addControl(navCtl, 'bottom-right');
 
-    // Optional: Fullscreen Button
-    map.addControl(new maplibregl.FullscreenControl());
+  // Optional: Fullscreen Button
+  map.addControl(new maplibregl.FullscreenControl());
 
   map.on('load', () => {
     map.addSource('churches', {
       type: 'geojson',
-      data: createGeoJSON(props.churches),
+      data: createGeoJSON(filteredChurches.value),
       cluster: true,
       clusterMaxZoom: 14,
       clusterRadius: 50,
@@ -130,7 +207,8 @@ onMounted(() => {
     // Cursor changes
     map.on('mouseenter', 'clusters', () => map.getCanvas().style.cursor = 'pointer')
     map.on('mouseleave', 'clusters', () => map.getCanvas().style.cursor = '')
-    
+
+    map.on('moveend', emitVisibleMarkersDebounced)
   })
 })
 

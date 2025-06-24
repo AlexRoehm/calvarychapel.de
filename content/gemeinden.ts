@@ -40,11 +40,11 @@ export const CHURCHES = [
     "pastor": "Alex Röhm",
     "website": "www.ccfreiburg.de",
     "address": "Löwenstr. 3-7, 79098 Freiburg",
-    "services": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
-    "godis": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
-    "stream": "",
+    "services": "Sunday 9:30am (german) / 11.30am (german/english) / 5pm (english) / Wednesday 7pm (german)",
+    "godis": "Sonntag 9:30 Uhr (deutsch) / 11.30 Uhr (deutsch/english) / 17 Uhr (englisch) / Mittwoch 19.00 Uhr (deutsch)",
+    "stream": "https://www.youtube.com/channel/UCjqEUcirtp36H4LkiNITp5w",
     "podcast": "https://podcast.ccfreiburg.de/",
-    "phone": "",
+    "phone": "+49 (0) 761 707 1333",
     "email": "info@ccfreiburg.de",
     "gmaps": "https://www.google.com/maps/search/?api=1&query=L%C3%B6wenstr.%203-7%2C%2079098%20Freiburg",
     "latitude": 47.993975957041584,
@@ -182,9 +182,9 @@ export const CHURCHES = [
     "podcast": "https://cck-town.org/feed/podcast",
     "phone": "+49 6371 616793",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Industriestr.+50,+66862+Kindsbach",
-    "latitude": 49.432538,
-    "longitude": 7.761835
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Industriestr.+50,+66862+Kindsbach",
+    "latitude": 49.42332272665157, 
+    "longitude": 7.6385929975522355
   },
   {
     "id": "00012",
@@ -199,9 +199,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "+49 179 7637558",
     "email": "diekapelleleipzig@gmail.com",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Konstantinstra%C3%9Fe+15,+04315+Leipzig",
-    "latitude": 51.3442295,
-    "longitude": 12.386174
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Konstantinstra%C3%9Fe+15,+04315+Leipzig",
+    "latitude": 51.34425400729049, 
+    "longitude": 12.397664161466716
   },
   {
     "id": "00013",
@@ -216,9 +216,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Windm%C3%BCllerstra%C3%9Fe+22,+59557+Lippstadt",
-    "latitude": 51.666712,
-    "longitude": 8.380592
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Windm%C3%BCllerstra%C3%9Fe+22,+59557+Lippstadt",
+    "latitude": 51.657814224247375, 
+    "longitude": 8.357617096951035
   },
   {
     "id": "00014",
@@ -233,9 +233,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Friedenstra%C3%9Fe+35,+71636+Ludwigsburg",
-    "latitude": 48.896131,
-    "longitude": 9.188374
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Friedenstra%C3%9Fe+35,+71636+Ludwigsburg",
+    "latitude": 48.88869233913346,
+    "longitude": 9.17593205874139
   },
   {
     "id": "00015",
@@ -250,9 +250,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Karlsbader+Weg+5,+32427+Minden",
-    "latitude": 52.292672,
-    "longitude": 8.917678
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Karlsbader+Weg+5,+32427+Minden",
+    "latitude": 52.2927420653025, 
+    "longitude": 8.893505666266632
   },
   {
     "id": "00016",
@@ -267,9 +267,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "+49 251 87 15 60 35",
     "email": "info@livestonechapel.de",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Robert+Bosch+Str.+5,+48153+M%C3%BCnster",
-    "latitude": 51.961235,
-    "longitude": 7.623704
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Robert+Bosch+Str.+5,+48153+M%C3%BCnster",
+    "latitude": 51.935034599999994, 
+    "longitude": 7.6321698141414265
   },
   {
     "id": "00017",
@@ -284,9 +284,9 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Kurt-Schumacher-Ring+123,+18069+Rostock",
-    "latitude": 54.080921,
-    "longitude": 12.139427
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Kurt-Schumacher-Ring+123,+18069+Rostock",
+    "latitude": 54.10462402619956, 
+    "longitude": 12.175944355152613
   },
   {
     "id": "00018",
@@ -301,26 +301,26 @@ export const CHURCHES = [
     "podcast": "https://podcasts.subsplash.com/1d0fcbd/podcast.rss",
     "phone": "+49 271 313 8888-8",
     "email": "office@cc-siegen.de",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Alte+Eisenstr.+6,+57080+Siegen",
-    "latitude": 50.872374,
-    "longitude": 8.025233
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Alte+Eisenstr.+6,+57080+Siegen",
+    "latitude": 50.851870255835195,
+    "longitude": 7.991463528186802
   },
   {
     "id": "00019",
     "city": "Sinsheim",
     "name": "Vaterhaus Calvary Chapel Sinsheim",
     "pastor": "",
-    "website": "calvarychapelsinsheim.de",
+    "website": "ccsnh.de",
     "address": "Am Leitzelbach 20, 74889 Sinsheim",
-    "services": "See website",
-    "godis": "siehe Webseite",
+    "services": "Sunday 10:30 a.m.",
+    "godis": "Sonntag 10:30 Uhr",
     "stream": "",
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Leitzelbach+2,+74889+Sinsheim",
-    "latitude": 49.253808,
-    "longitude": 8.915467
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Am+Leitzelbach+20,+74889+Sinsheim",
+    "latitude": 49.25046808576746, 
+    "longitude": 8.846187691404609
   },
   {
     "id": "00020",
@@ -335,9 +335,9 @@ export const CHURCHES = [
     "podcast": "https://www.citychapel.de/feed/?post_type=sermons",
     "phone": "+49 711-614-29",
     "email": "info@citychapel.de",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Talstra%C3%9Fe+70,+70188+Stuttgart",
-    "latitude": 48.777948,
-    "longitude": 9.179698
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Talstra%C3%9Fe+70,+70188+Stuttgart",
+    "latitude": 48.78547371862616, 
+    "longitude": 9.21560660674667
   },
   {
     "id": "00021",
@@ -352,8 +352,8 @@ export const CHURCHES = [
     "podcast": "",
     "phone": "",
     "email": "",
-    "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Ernst-Ludwig-Str.+8,+65185+Wiesbaden",
-    "latitude": 50.077903,
-    "longitude": 8.238455
+    "gmaps": "https://www.google.com/maps/search/?api=1&query=Ernst-Ludwig-Str.+8,+65185+Wiesbaden",
+    "latitude": 50.078386273559936, 
+    "longitude": 8.228939617155687
   }
 ]
