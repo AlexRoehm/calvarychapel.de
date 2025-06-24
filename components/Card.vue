@@ -13,7 +13,13 @@
       <span class="font-semibold">{{ $t('Pastor') }}:</span> {{ post.pastor }}
     </div>
 
-    <div class="text-sm text-gray-700">
+    <div v-if="post.postal!=''" class="text-sm text-gray-700">
+      <span class="font-semibold">{{ $t('Postalisch') }}:</span> {{ post.postal }}
+    </div>
+    <div v-if="post.postal!=''" class="text-sm text-gray-700">
+      <span class="font-semibold">{{ $t('Treffpunkt') }}:</span> {{ post.address }}
+    </div>   
+    <div v-else class="text-sm text-gray-700">
       <span class="font-semibold">{{ $t('Adresse') }}:</span> {{ post.address }}
     </div>
 
