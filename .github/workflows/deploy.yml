@@ -35,6 +35,8 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Static HTML export with Nuxt
+        env:
+          NUXT_PUBLIC_MAPTILER_API_KEY: ${{ secrets.NUXT_PUBLIC_MAPTILER_API_KEY }}
         run: yarn generate
       - name: Upload to WebDAV
         uses: bxb100/action-upload-webdav@v1

@@ -31,5 +31,10 @@ export default defineNuxtConfig({
     lazy: false,
     langDir: './locales',
   },
+    runtimeConfig: {
+    public: {
+      MAPTILER_API_KEY: process.env.NUXT_PUBLIC_MAPTILER_API_KEY,
+    },
+  },
   css: ['~/assets/css/main.css', 'maplibre-gl/dist/maplibre-gl.css' ]
 })

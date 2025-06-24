@@ -109,7 +109,7 @@ watch(filteredChurches, (newChurches) => {
 
 
 onMounted(() => {
-  const apiKey = 'bIQhQWCj3Hv9CPuIsQQl';
+  const apiKey = useRuntimeConfig().public.MAPTILER_API_KEY
   map = new maplibregl.Map({
     container: mapContainer.value,
     style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${apiKey}`,
