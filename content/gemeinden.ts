@@ -169,15 +169,15 @@ export const CHURCHES = [
     "website": "ccherborn.de",
     "address": "Hohe Str. 700, Gebäude 9, 35745 Herborn",
     "postal": "",
-    "services": "Sonntag 10:30 / Mittwoch 19:30 Uhr",
-    "godis": "Sonntag 10:30 / Mittwoch 19:30 Uhr",
+    "services": "Sunday 10:30am",
+    "godis": "Sonntag 10:30 Uhr",
     "stream": "",
     "podcast": "https://itunes.apple.com/de/podcast/calvary-chapel-herborn-podcast/id1364863713?l=en",
     "phone": "+49 2772 9230699",
     "email": "office@ccherborn.de",
-    "gmaps": "https://www.google.com/maps/search/?api=1&query=Hohe%20Str.%20700%2C%20Geb%C3%A4ude%209%2C%2035745%20Herborn",
-    "latitude": 50.70942296100839, 
-    "longitude": 8.356262642329689
+    "gmaps": "https://maps.app.goo.gl/7WfSUCSbfBiYx6jN7",
+    "latitude": 50.709450137296116,
+    "longitude": 8.356251913492368
   },
   {
     "id": "00011",
