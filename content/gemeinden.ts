@@ -263,8 +263,8 @@ export const CHURCHES = [
     "godis": "Sonntag 16.00 Uhr",
     "stream": "",
     "podcast": "",
-    "phone": "",
-    "email": "",
+    "phone": "+49 (0) 571 - 784 699 39",
+    "email": "team@ccminden.de",
     "gmaps": "https://www.google.com/maps/search/?api=1&query=Südfelder+Dorfstraße+6,+32469+Petershagen",
     "latitude": 52.36586604273535, 
     "longitude": 8.90267522723345
