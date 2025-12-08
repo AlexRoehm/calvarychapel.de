@@ -1,8 +1,8 @@
 export const CHURCHES = [
   {
     "id": "00001",
-    "city": "Darmstadt",
-    "name": "Calvary Chapel Darmstadt",
+    "city": "Messel",
+    "name": "Calvary Chapel Messel",
     "pastor": "Frank Decker",
     "website": "www.calvarymessel.de",
     "address": "Roßdörfer Str. 35a, 64409 Messel bei Darmstadt",
