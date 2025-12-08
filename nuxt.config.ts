@@ -11,30 +11,35 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/i18n'
   ],
-    i18n: {
+
+  i18n: {
+    experimental: {
+      localeDetector: false
+    },
     strategy: 'prefix_except_default',
     defaultLocale: 'de',
     locales: [
-      { 
-        code: "en", 
-        file: "en.json", 
+      {
+        code: 'en',
+        file: 'en.json',
         language: 'en-US',
-        name: "English"
+        name: 'English'
       },
       {
-        code: "de",
-        file: "de.json", 
+        code: 'de',
+        file: 'de.json',
         language: 'de-DE',
-        name: "Deutsch"
+        name: 'Deutsch'
       }
     ],
     lazy: false,
-    langDir: './locales',
+    langDir: './locales'
   },
-    runtimeConfig: {
+
+  runtimeConfig: {
     public: {
-      MAPTILER_API_KEY: process.env.NUXT_PUBLIC_MAPTILER_API_KEY,
-    },
+      MAPTILER_API_KEY: process.env.NUXT_PUBLIC_MAPTILER_API_KEY
+    }
   },
-  css: ['~/assets/css/main.css', 'maplibre-gl/dist/maplibre-gl.css' ]
+  css: ['~/assets/css/main.css', 'maplibre-gl/dist/maplibre-gl.css']
 })
