@@ -4,4 +4,4 @@ With a sincere concern for the lost, Pastor Chuck made room in his heart and his
 
 Here in our website, we invite you to find out more about who we are today, what we believe, where we are throughout the world; and we invite you to join us as we meet and worship our wonderful Lord and Savior, study His Word, fellowship together, grow in His grace, and desire to make disciples and go into all the world.
 
-For a more in-depth look at the history of Calvary Chapel, we recommend reading The Reproducers. You can download a free digital copy as a PDF.
+For a more in-depth look at the history of Calvary Chapel, we recommend reading The Reproducers. You can [download a free digital copy as a PDF.](https://cms.ccfreiburg.de/uploads/Reproducers_Ebook2013_2732b76478.pdf)

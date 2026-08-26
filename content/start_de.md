@@ -4,5 +4,5 @@ Mit aufrichtigem Mitgefühl für die Verlorenen öffnete Pastor Chuck sein Herz 
 
 Auf unserer Website laden wir dich ein, mehr darüber zu erfahren, wer wir heute sind, was wir glauben und wo auf der Welt wir zu finden sind. Und wir laden dich ein, mit uns gemeinsam unseren  Erlöser Jesus Christus anzubeten, Sein Wort zu studieren, Gemeinschaft zu haben, in Seiner Gnade zu wachsen, Jünger zu machen und in alle Welt hinauszugehen.
 
-Für einen tieferen Einblick in die Geschichte von Calvary Chapel empfehlen wir die englische Hauptseite und das Büchlein The Reproducers. Du kannst ein kostenloses digitales Exemplar als PDF  herunterladen.
+Für einen tieferen Einblick in die Geschichte von Calvary Chapel empfehlen wir die englische Hauptseite und das Büchlein The Reproducers. Du kannst ein kostenloses digitales Exemplar als [PDF  herunterladen.](https://cms.ccfreiburg.de/uploads/Reproducers_Ebook2013_2732b76478.pdf)
 
