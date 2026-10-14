@@ -147,7 +147,7 @@ export const CHURCHES = [
     "id": "00009",
     "city": "Heidelberg",
     "name": "Calvary Chapel Heidelberg",
-    "pastor": "Keith Fortenberry",
+    "pastor": "",
     "website": "www.cchd.de",
     "address": "Vangerowstr. 51a, 69115 Heidelberg",
     "postal": "",
